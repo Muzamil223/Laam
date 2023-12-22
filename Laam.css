@@ -1,0 +1,246 @@
+*{
+  font-family: sans-serif;
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+}
+ul a{
+  list-style-type: none;
+}
+.pointss{
+  padding: 10px;
+  padding-bottom: 0px;
+  font-weight: 100;
+  text-align: center;
+}
+ul a{
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+  display: flex;
+}
+.content:hover{
+  color: white;
+  border: 2px rgb(65, 20, 0) solid;
+  background-color: rgb(65, 20, 0);
+}
+.logo{
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.right{
+  padding: 15px 8px;
+}
+.neww{
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.neww:hover{
+  box-shadow: 25px black;
+}
+.circles{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.circle{
+  cursor: pointer;
+  transition: .3s;
+}
+.circle:hover{
+  transform: scale(1.1);
+}
+h3{
+  font-family: "Playfair Display", serif;
+  margin: 10px;
+  color: rgb(44, 12, 6);
+  font-size: 30px;
+  font-weight: inherit;
+}
+.points{
+  padding: 10px;
+  font-size: small;
+  font-family: sans-serif;
+  list-style-type: none;
+  cursor:pointer;
+}
+.navbar2{
+  display: flex;
+  justify-content: space-between;
+  transition: all  .3s;
+}
+.points:hover{
+  color: white;
+  border: 2px rgb(65, 20, 0) solid;
+  background-color: rgb(65, 20, 0);
+} 
+.search{
+  margin-top: 20px;
+  height: 30px;
+  button
+}
+.card-wrapper{
+  display: flex ;
+  justify-content: center ;
+}
+.card{
+  padding: 0px 8px;
+  cursor: pointer;
+}
+.back-on-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 206, 206);
+  width: 100%;
+  height: 100px;
+}
+.back{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back-on-top a{
+  text-decoration: none;
+  color: black;
+}
+.get-on-your-list{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  height: 250px;
+  background-color: rgb(53, 53, 53);
+}
+.gl{
+  color: white;
+  float: left;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-left: 70px;
+}
+.inf{
+  width: 400px;
+  font-size: smaller;
+  color: rgb(139, 138, 138);
+  float: left;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+.gl-inf{
+  width: 300px;
+  height: 250px;
+}
+.phone{
+  width: 350px;
+  height: 40px;
+  margin: 80px;
+  border-radius: 5px;
+}
+.pak{
+  padding: 10px;
+}
+.input{
+  border: none;
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+h2{
+  background-color: rgb(53, 53, 53);
+  color: #fff;
+  padding-left: 140px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier,; 
+}
+h2:hover{
+  color: red;
+}
+.footer{
+  width: 100%;
+  height: 45vh;  
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 241, 241);
+}
+.li-text{
+  list-style-type: none;
+  padding: 30px;
+  font-size: smaller;
+  line-height: 30px;
+}
+#bold-text{
+  text-transform: uppercase;
+  color: #000;
+  font-size: medium;
+  letter-spacing: 1px ;
+}
+.ul-text{
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+.ul-text:hover{
+  color: red;
+}
+#bold-text:hover{
+  color: red;
+}
+.brands{
+  width: 100%;
+  padding: 10px 2px;
+}
+.img-brnd{
+  padding-right: 8px;
+  cursor: pointer;
+}
+.slider-wrapper{
+  position: relative;
+  max-width: 100%;
+}
+.display{
+  display: flex;
+  aspect-ratio: 100%;
+  overflow-x: auto;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+.display img{
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+.display-nav{
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.display-nav a{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: ease-out ease 250ms;
+}
+.display-nav a:hover{
+  opacity: 1;
+}
